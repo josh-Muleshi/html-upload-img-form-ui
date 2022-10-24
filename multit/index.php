@@ -13,7 +13,7 @@
             <p>Selection des photo</p>
             <button type="button">Upload</button>
         </div>
-        <form class="form" action="/upload" method="post">
+        <form class="" action="/upload" method="post">
             <span class="inner">Glisez l\'image ici ou <span class="select">browse</span></span>
             <input type="file" name="file" class="file" multiple>
         </form>

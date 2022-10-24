@@ -43,9 +43,23 @@ form.addEventListener('dragover', e => {
     text.innerHTML = 'Glisez l\'image ici'
 })
 
-form.addEventListener('dragover', e => {
+form.addEventListener('dragleave', e => {
     e.preventDefault()
 
     form.classList.remove('dragover')
     text.innerHTML = 'Glisez l\'image ici ou <span class="select">browse</span>'
+})
+
+form.addEventListener('drop', e => {
+    e.preventDefault()
+
+    form.classList.remove('dragover')
+    text.innerHTML = 'Glisez l\'image ici ou <span class="select">browse</span>'
+    
+    let file = e.dataTransfer.files;
+    for (let i = 0; i < file.length; i++){
+        if (files.every(e => e.name != file[i].name)) files.push(file[i])
+    }
+
+    showImages();
 })

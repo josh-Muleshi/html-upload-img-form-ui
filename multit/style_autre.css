@@ -87,7 +87,7 @@ form input {
     display: none;
 }
 
-form.form.h {
+form.dragover {
     border-style: solid;
     font-size: 2rem;
     color: #c8c9dd;
