@@ -9,7 +9,7 @@
 
 ## Multiple image upload
 
-<p align="start">
+<p align="center">
   <img width="300em" src="img/multi/multi-empty.png" />
-  <img width="300em" src="img/multi/multy-full.png" />
+  <img width="300em" height="300em" src="img/multi/multy-full.png" />
 </p>
