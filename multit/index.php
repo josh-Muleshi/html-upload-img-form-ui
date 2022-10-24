@@ -18,10 +18,6 @@
             <input type="file" name="file" class="file" multiple>
         </form>
         <div class="container">
-            <!-- <div class="image">
-                <img src="" alt="image">
-                <span>&times;</span> 
-            </div> -->
         </div>
     </div>
 
