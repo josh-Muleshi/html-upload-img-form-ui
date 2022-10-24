@@ -2,6 +2,11 @@
 
 ## Single image upload
 
+<p align="center">
+  <img width="450em" src="img/single/single-empty.png" />
+  <img width="450em" src="img/single/single-full.png" />
+</p>
+
 ![SimgleEmpty](img/single/single-empty.png)
 ![SimgleFull](img/single/single-full.png)
 
